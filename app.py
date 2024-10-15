@@ -6,8 +6,8 @@ st.title('Interactive Sales Data Visualization App')
 
 # Pre-loaded dataset for sales information
 data = {
-    'Product': ['Joey F.', 'Max S.', 'Maddie H,', 'Grace D.', 'Yubei S.'],
-    'GPA': [4.33, 4.33, 4.33, 4.33, 4.33]
+    'Students': ['Joey F.', 'Max S.', 'Maddie H,', 'Grace D.', 'Yubei S.'],
+    'GPA': [4.33, 0, 4.33, 4.33, 4.33]
 }
 df = pd.DataFrame(data)
 
